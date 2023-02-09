@@ -17,7 +17,8 @@
     "influencers"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo 'Tests coming soon'"
   },
   "dependencies": {
     "iso-639-1": "^2.1.15"
