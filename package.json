@@ -1,0 +1,30 @@
+{
+  "name": "@timseverien/webcommunicators",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "web",
+    "developer",
+    "communicators",
+    "educators",
+    "influencers"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "iso-639-1": "^2.1.15"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts-strictest": "^18.12.1",
+    "@tsconfig/node-lts-strictest-esm": "^18.12.1",
+    "typescript": "^4.9.5"
+  }
+}

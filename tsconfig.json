@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node-lts-strictest-esm",
+  "include": ["src"],
+  "compilerOptions": {
+    "declaration": true,
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "outDir": "dist",
+    "resolveJsonModule": false,
+    "target": "ES2021"
+  }
+}
