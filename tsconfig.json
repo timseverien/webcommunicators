@@ -8,5 +8,6 @@
     "outDir": "dist",
     "resolveJsonModule": false,
     "target": "ES2021"
-  }
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
