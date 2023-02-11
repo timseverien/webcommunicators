@@ -7,12 +7,12 @@ export const COMMUNICATORS: Communicator[] = [
 		channels: [
 			{
 				type: 'BLOG',
-				url: 'https://ijsjes.dev',
+				url: 'https://ijsjes.dev/',
 				feedUrl: 'https://ijsjes.dev/rss.xml',
 			},
 			{
 				type: 'BLOG',
-				url: 'https://timseverien.com',
+				url: 'https://timseverien.com/',
 				feedUrl: 'https://timseverien.com/feed.xml',
 			},
 			{
