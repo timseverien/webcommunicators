@@ -1,5 +1,4 @@
 {
-  "extends": "@tsconfig/node-lts-strictest-esm",
   "include": ["src"],
   "compilerOptions": {
     "declaration": true,
@@ -7,7 +6,23 @@
     "moduleResolution": "node16",
     "outDir": "dist",
     "resolveJsonModule": false,
-    "target": "ES2021"
+    "target": "ES2021",
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
