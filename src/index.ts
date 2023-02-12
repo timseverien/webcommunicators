@@ -1,1 +1,3 @@
-export { COMMUNICATORS as default } from './communicators.js';
+export * from './channel.js';
+export * from './communicator.js';
+export * from './communicators.js';
