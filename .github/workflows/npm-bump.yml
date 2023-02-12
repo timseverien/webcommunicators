@@ -35,4 +35,5 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm version minor
+      - run: git push
       - run: git push --tags
