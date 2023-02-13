@@ -192,30 +192,6 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
-		name: 'Kate Kalcevich',
-		languages: ['en'],
-		channels: [
-			{
-				type: 'TWITTER',
-				username: 'katekalcevich',
-			},
-		],
-	},
-	{
-		name: 'Lee Robinson',
-		languages: ['en'],
-		channels: [
-			{
-				type: 'BLOG',
-				url: 'https://leerob.io/blog',
-			},
-			{
-				type: 'TWITTER',
-				username: 'leeerob',
-			},
-		],
-	},
-	{
 		name: 'Jake Archibald',
 		languages: ['en'],
 		channels: [
@@ -294,6 +270,30 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Kate Kalcevich',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'katekalcevich',
+			},
+		],
+	},
+	{
+		name: 'Lee Robinson',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://leerob.io/blog',
+			},
+			{
+				type: 'TWITTER',
+				username: 'leeerob',
+			},
+		],
+	},
+	{
 		name: 'Miriam Suzanne',
 		languages: ['en'],
 		channels: [
@@ -349,31 +349,6 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
-		name: 'Shubhie Panicker',
-		languages: ['en'],
-		channels: [
-			{
-				type: 'TWITTER',
-				username: 'shubhie',
-			},
-		],
-	},
-	{
-		name: 'Tim Kadlec',
-		languages: ['en'],
-		channels: [
-			{
-				type: 'BLOG',
-				url: 'https://timkadlec.com/remembers/',
-				feedUrl: 'https://timkadlec.com/remembers/atom.xml',
-			},
-			{
-				type: 'TWITTER',
-				username: 'tkadlec',
-			},
-		],
-	},
-	{
 		name: 'Shaundai Person',
 		languages: ['en'],
 		channels: [
@@ -381,6 +356,16 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://dev.to/shaundai',
 				feedUrl: 'https://dev.to/feed/shaundai',
+			},
+		],
+	},
+	{
+		name: 'Shubhie Panicker',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'shubhie',
 			},
 		],
 	},
@@ -406,6 +391,21 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'STahran',
+			},
+		],
+	},
+	{
+		name: 'Tim Kadlec',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://timkadlec.com/remembers/',
+				feedUrl: 'https://timkadlec.com/remembers/atom.xml',
+			},
+			{
+				type: 'TWITTER',
+				username: 'tkadlec',
 			},
 		],
 	},
