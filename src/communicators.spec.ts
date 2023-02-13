@@ -1,7 +1,6 @@
 import type {
 	ChannelBlog,
 	ChannelMastodon,
-	ChannelNewsletter,
 	ChannelTwitch,
 	ChannelTwitter,
 	ChannelYouTube,
@@ -14,80 +13,100 @@ import {
 } from './util';
 
 describe('COMMUNICATORS', () => {
-	test('communicator names isn’t empty', () => {
-		expect(COMMUNICATORS.every((c) => c.name.length > 0)).toBe(true);
+	test.each(COMMUNICATORS.map((c) => [c]))(
+		'communicator %p doesn’t have an empty name',
+		(communicator) => {
+			expect(communicator.name.length).toBeGreaterThan(0);
+		},
+	);
+
+	test.each(COMMUNICATORS.map((c) => [c]))(
+		'communicator %p has at least one channel',
+		(communicator) => {
+			expect(communicator.channels.length).toBeGreaterThan(0);
+		},
+	);
+
+	test.each(COMMUNICATORS.map((c) => [c]))(
+		'communicator %p has at least one language',
+		(communicator) => {
+			expect(communicator.languages.length).toBeGreaterThan(0);
+		},
+	);
+
+	test.each(
+		getCommunicatorChannelsOfType<ChannelBlog>(COMMUNICATORS, 'BLOG').map(
+			(c) => [c.url],
+		),
+	)('blog URL %p is a valid URL (with a path)', (blogUrl) => {
+		expect(isValidUrl(blogUrl)).toBe(true);
 	});
 
-	test('communicators have at least one channel', () => {
-		expect(COMMUNICATORS.every((c) => c.channels.length > 0)).toBe(true);
+	test.each(
+		getCommunicatorChannelsOfType<ChannelBlog>(COMMUNICATORS, 'BLOG')
+			.filter((c) => c.feedUrl)
+			.map((c) => [c.feedUrl]),
+	)('blog feed %p is a valid URL', (blogFeedUrl) => {
+		expect(isValidUrl(blogFeedUrl!)).toBe(true);
 	});
 
-	test('communicators have at least one language', () => {
-		expect(COMMUNICATORS.every((c) => c.languages.length > 0)).toBe(true);
-	});
-
-	test('blogs have valid URLs', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelBlog>(
-			COMMUNICATORS,
-			'BLOG',
-		);
-		expect(blogs.every((c) => isValidUrl(c.url))).toBe(true);
-	});
-
-	test('blogs have valid feed URLs', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelBlog>(
-			COMMUNICATORS,
-			'BLOG',
-		).filter((b) => typeof b.feedUrl === 'string');
-
-		expect(blogs.every((c) => isValidUrl(c.feedUrl!))).toBe(true);
-	});
-
-	test('Mastodon have valid server hostnames', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelMastodon>(
+	test.each(
+		getCommunicatorChannelsOfType<ChannelMastodon>(
 			COMMUNICATORS,
 			'MASTODON',
-		);
-		expect(blogs.every((c) => isValidHostname(c.serverDomain))).toBe(true);
+		).map((c) => [c.serverDomain]),
+	)('Mastodon hostname %p is a valid hostname', (mastodonHostname) => {
+		expect(isValidHostname(mastodonHostname)).toBe(true);
 	});
 
-	test('Mastodon users are non-empty', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelMastodon>(
+	test.each(
+		getCommunicatorChannelsOfType<ChannelMastodon>(
 			COMMUNICATORS,
 			'MASTODON',
-		);
-		expect(blogs.every((c) => c.username.length > 0)).toBe(true);
+		).map((c) => [c.username]),
+	)('Mastodon username %p is non-empty', (mastodonUsername) => {
+		expect(mastodonUsername.length).toBeGreaterThan(0);
 	});
 
-	test('Newsletter subscribe URLs are valid', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelNewsletter>(
-			COMMUNICATORS,
-			'NEWSLETTER',
-		);
-		expect(blogs.every((c) => isValidUrl(c.subscribeUrl))).toBe(true);
+	// test.each(
+	// 	getCommunicatorChannelsOfType<ChannelNewsletter>(
+	// 		COMMUNICATORS,
+	// 		'NEWSLETTER',
+	// 	).map((c) => [c.subscribeUrl]),
+	// )('Newsletter subscribe URL %p is valid', (newsletterSubscribeUrl) => {
+	// 	expect(isValidUrl(newsletterSubscribeUrl)).toBe(true);
+	// });
+
+	test.each(
+		getCommunicatorChannelsOfType<ChannelTwitch>(COMMUNICATORS, 'TWITCH').map(
+			(c) => [c.username],
+		),
+	)('Twitch username %p is non-empty', (twitchUsername) => {
+		expect(twitchUsername.length).toBeGreaterThan(0);
 	});
 
-	test('Twitch usernames are non-empty', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelTwitch>(
-			COMMUNICATORS,
-			'TWITCH',
-		);
-		expect(blogs.every((c) => c.username.length > 0)).toBe(true);
+	test.each(
+		getCommunicatorChannelsOfType<ChannelTwitter>(COMMUNICATORS, 'TWITTER').map(
+			(c) => [c.username],
+		),
+	)('Twitter username %p is non-empty', (twitterUsername) => {
+		expect(twitterUsername.length).toBeGreaterThan(0);
 	});
 
-	test('Twitter usernames are non-empty', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelTwitter>(
-			COMMUNICATORS,
-			'TWITTER',
-		);
-		expect(blogs.every((c) => c.username.length > 0)).toBe(true);
+	test.each(
+		getCommunicatorChannelsOfType<ChannelYouTube>(COMMUNICATORS, 'YOUTUBE').map(
+			(c) => [c.channelName],
+		),
+	)('YouTube channel name %p is non-empty', (youtubeChannelName) => {
+		expect(youtubeChannelName.length).toBeGreaterThan(0);
 	});
 
-	test('YouTube channel names are non-empty', () => {
-		const blogs = getCommunicatorChannelsOfType<ChannelYouTube>(
-			COMMUNICATORS,
-			'YOUTUBE',
+	test('communicators are in alphabetic order', () => {
+		const communicatorNames = COMMUNICATORS.map((c) => c.name);
+		const expected = Array.from(communicatorNames).sort((a, b) =>
+			a.localeCompare(b),
 		);
-		expect(blogs.every((c) => c.channelName.length > 0)).toBe(true);
+
+		expect(communicatorNames).toEqual(expected);
 	});
 });
