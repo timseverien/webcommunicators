@@ -109,4 +109,30 @@ describe('COMMUNICATORS', () => {
 
 		expect(communicatorNames).toEqual(expected);
 	});
+
+	test.each([COMMUNICATORS.map((c) => c.channels)])(
+		'channels are in alphabetic order',
+		(channels) => {
+			const expected = Array.from(channels).sort((a, b) => {
+				if (a.type === 'BLOG' && b.type === 'BLOG')
+					return a.url.localeCompare(b.url);
+				if (a.type === 'MASTODON' && b.type === 'MASTODON')
+					return a.username.localeCompare(b.username);
+				if (a.type === 'NEWSLETTER' && b.type === 'NEWSLETTER')
+					return a.subscribeUrl.localeCompare(b.subscribeUrl);
+				if (a.type === 'TWITCH' && b.type === 'TWITCH')
+					return a.username.localeCompare(b.username);
+				if (a.type === 'TWITTER' && b.type === 'TWITTER')
+					return a.username.localeCompare(b.username);
+				if (a.type === 'YOUTUBE' && b.type === 'YOUTUBE')
+					return (a.channelName ?? a.channelId).localeCompare(
+						b.channelName ?? b.channelId,
+					);
+
+				return a.type.localeCompare(b.type);
+			});
+
+			expect(channels).toEqual(expected);
+		},
+	);
 });

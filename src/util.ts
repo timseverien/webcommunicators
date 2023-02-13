@@ -25,7 +25,8 @@ export const isValidHostname = (hostname: string) => {
 
 export const isValidUrl = (url: string) => {
 	try {
-		return new URL(url).toString() === url;
+		const urlObject = new URL(url);
+		return urlObject.protocol === 'https:' && urlObject.toString() === url;
 	} catch {
 		return false;
 	}
