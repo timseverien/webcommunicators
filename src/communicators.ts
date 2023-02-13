@@ -17,6 +17,45 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Andy Bell',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://andy-bell.co.uk/blog/',
+				feedUrl: 'https://andy-bell.co.uk/feed/',
+			},
+			{
+				type: 'MASTODON',
+				username: 'andy',
+				serverDomain: 'bell.bz',
+			},
+			{
+				type: 'TWITTER',
+				username: 'piccalilli_',
+			},
+		],
+	},
+	{
+		name: 'Asim Hussain',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://asim.dev/articles',
+				feedUrl: 'https://asim.dev/rss.xml',
+			},
+			{
+				type: 'TWITTER',
+				username: 'jawache',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'jawache',
+			},
+		],
+	},
+	{
 		name: 'Átila Fassina',
 		languages: ['en'],
 		channels: [
@@ -36,6 +75,16 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'YOUTUBE',
 				channelId: 'UCfCr8kE8AL0tzDPbX1KX_gg',
+			},
+		],
+	},
+	{
+		name: 'Ben Callahan',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'bencallahan',
 			},
 		],
 	},
@@ -249,6 +298,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Ivan Akulov',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://iamakulov.com/notes/',
+				feedUrl: 'https://iamakulov.com/notes/feed/',
+			},
+			{
+				type: 'MASTODON',
+				username: 'iamakulov',
+				serverDomain: 'indieweb.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'iamakulov',
+			},
+		],
+	},
+	{
 		name: 'Jake Archibald',
 		languages: ['en'],
 		channels: [
@@ -385,6 +454,41 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Manuel Matuzović',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.matuzo.at/blog/',
+				feedUrl: 'https://www.matuzo.at/feed.xml?rev=1676266777073',
+			},
+			{
+				type: 'MASTODON',
+				username: 'matuzo',
+				serverDomain: 'front-end.social',
+			},
+		],
+	},
+	{
+		name: 'Michelle Barker',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://css-irl.info/',
+			},
+			{
+				type: 'MASTODON',
+				username: 'michelle',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'MicheBarks',
+			},
+		],
+	},
+	{
 		name: 'Miriam Suzanne',
 		languages: ['en'],
 		channels: [
@@ -405,6 +509,21 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Nathan Curtis',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://medium.com/@nathanacurtis',
+				feedUrl: 'https://medium.com/feed/@nathanacurtis',
+			},
+			{
+				type: 'TWITTER',
+				username: 'nathanacurtis',
+			},
+		],
+	},
+	{
 		name: 'Phil Hawksworth',
 		languages: ['en'],
 		channels: [
@@ -421,6 +540,30 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'philhawksworth',
+			},
+		],
+	},
+	{
+		name: 'Rémi Parmentier',
+		languages: ['en', 'fr'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.hteumeuleu.com/blog/',
+				feedUrl: 'https://www.hteumeuleu.com/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'HTeuMeuLe',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'HTeuMeuLeu',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'HTeuMeuLeu',
 			},
 		],
 	},
@@ -496,6 +639,25 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'YOUTUBE',
 				channelId: 'UCxqiDtkXtOCNJdckODHk9YA',
+			},
+		],
+	},
+	{
+		name: 'Tejas Kumar',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://tej.as/blog',
+				feedUrl: 'https://tejaskumar.com/api/rss',
+			},
+			{
+				type: 'TWITTER',
+				username: 'tejaskumar_',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'tejask',
 			},
 		],
 	},
