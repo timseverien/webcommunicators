@@ -35,7 +35,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'UCfCr8kE8AL0tzDPbX1KX_gg',
+				channelId: 'UCfCr8kE8AL0tzDPbX1KX_gg',
 			},
 		],
 	},
@@ -321,7 +321,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'jheytompkins',
+				channelName: 'jh3y',
 			},
 		],
 	},
@@ -495,7 +495,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'UCxqiDtkXtOCNJdckODHk9YA',
+				channelId: 'UCxqiDtkXtOCNJdckODHk9YA',
 			},
 		],
 	},

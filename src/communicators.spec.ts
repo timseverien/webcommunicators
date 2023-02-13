@@ -95,10 +95,10 @@ describe('COMMUNICATORS', () => {
 
 	test.each(
 		getCommunicatorChannelsOfType<ChannelYouTube>(COMMUNICATORS, 'YOUTUBE').map(
-			(c) => [c.channelName],
+			(c) => [(c.channelId || c.channelName)!],
 		),
-	)('YouTube channel name %p is non-empty', (youtubeChannelName) => {
-		expect(youtubeChannelName.length).toBeGreaterThan(0);
+	)('YouTube channel id or name %p is non-empty', (youtubeChannelIdOrName) => {
+		expect(youtubeChannelIdOrName.length).toBeGreaterThan(0);
 	});
 
 	test('communicators are in alphabetic order', () => {
