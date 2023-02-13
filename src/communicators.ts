@@ -2,6 +2,41 @@ import type { Communicator } from './communicator.js';
 
 export const COMMUNICATORS: Communicator[] = [
 	{
+		name: 'Addy Osmani',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://web.dev/authors/addyosmani/',
+				feedUrl: 'https://web.dev/authors/addyosmani/feed.xml',
+			},
+			{
+				type: 'TWITTER',
+				username: 'addyosmani',
+			},
+		],
+	},
+	{
+		name: 'Brad Frost',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://bradfrost.com/blog/',
+				feedUrl: 'https://feeds.feedburner.com/brad-frosts-blog',
+			},
+			{
+				type: 'MASTODON',
+				username: 'brad_frost',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'brad_frost',
+			},
+		],
+	},
+	{
 		name: 'Bramus van Damme',
 		languages: ['en'],
 		channels: [
@@ -42,6 +77,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Cassie Evans',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.cassie.codes/writing/',
+				feedUrl: 'https://www.cassie.codes/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'cassiecodes',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'cassiecodes',
+			},
+		],
+	},
+	{
 		name: 'Christine Vallaure',
 		languages: ['en'],
 		channels: [
@@ -67,6 +122,21 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Dan Rubin',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'MASTODON',
+				username: 'danrubin',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'danrubin',
+			},
+		],
+	},
+	{
 		name: 'Elliot Jay Stocks',
 		languages: ['en'],
 		channels: [
@@ -87,6 +157,21 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Harry Roberts',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://csswizardry.com/archive/',
+				feedUrl: 'https://feeds.feedburner.com/csswizardry',
+			},
+			{
+				type: 'TWITTER',
+				username: 'csswizardry',
+			},
+		],
+	},
+	{
 		name: 'Hidde de Vries',
 		languages: ['en'],
 		channels: [
@@ -103,6 +188,16 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'hdv',
+			},
+		],
+	},
+	{
+		name: 'Kate Kalcevich',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'katekalcevich',
 			},
 		],
 	},
@@ -156,6 +251,34 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Jhey Tompkins',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://jhey.dev/',
+				feedUrl: 'https://jhey.dev/rss/rss.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'jhey',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITCH',
+				username: 'jh3yy',
+			},
+			{
+				type: 'TWITTER',
+				username: 'jh3yy',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'jheytompkins',
+			},
+		],
+	},
+	{
 		name: 'Josh W Comeau',
 		languages: ['en'],
 		channels: [
@@ -187,6 +310,51 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'TerribleMia',
+			},
+		],
+	},
+	{
+		name: 'Phil Hawksworth',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.hawksworx.com/blog',
+				feedUrl: 'https://www.hawksworx.com/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'philhawksworth',
+				serverDomain: 'indieweb.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'philhawksworth',
+			},
+		],
+	},
+	{
+		name: 'Robin Marx',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'MASTODON',
+				username: 'programmingart',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'programmingart',
+			},
+		],
+	},
+	{
+		name: 'Shubhie Panicker',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'shubhie',
 			},
 		],
 	},
@@ -228,6 +396,16 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'shestopalov_v',
+			},
+		],
+	},
+	{
+		name: 'Sophie Tahran',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'STahran',
 			},
 		],
 	},
