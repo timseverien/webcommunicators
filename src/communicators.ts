@@ -17,6 +17,29 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Átila Fassina',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://atila.io/writing',
+			},
+			{
+				type: 'MASTODON',
+				username: 'atila',
+				serverDomain: 'mas.to',
+			},
+			{
+				type: 'TWITTER',
+				username: 'AtilaFassina',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'UCfCr8kE8AL0tzDPbX1KX_gg',
+			},
+		],
+	},
+	{
 		name: 'Brad Frost',
 		languages: ['en'],
 		channels: [
@@ -157,6 +180,30 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Eva Ferreira',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'evaferreira92',
+			},
+		],
+	},
+	{
+		name: 'Harrison Wheeler',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'hmwheele',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'technicallyspeakinghw',
+			},
+		],
+	},
+	{
 		name: 'Harry Roberts',
 		languages: ['en'],
 		channels: [
@@ -168,6 +215,16 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'csswizardry',
+			},
+		],
+	},
+	{
+		name: 'Henri Helvetica',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'HenriHelvetica',
 			},
 		],
 	},
@@ -208,6 +265,20 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'jaffathecake',
+			},
+		],
+	},
+	{
+		name: 'Jason Pamental',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://rwt.io/blog',
+			},
+			{
+				type: 'TWITTER',
+				username: 'jpamental',
 			},
 		],
 	},
@@ -276,6 +347,26 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'katekalcevich',
+			},
+		],
+	},
+	{
+		name: 'Laura Kalbag',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://laurakalbag.com/posts/',
+				feedUrl: 'https://laurakalbag.com/posts/index.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'laura',
+				serverDomain: 'mastodon.laurakalbag.com',
+			},
+			{
+				type: 'TWITTER',
+				username: 'laurakalbag',
 			},
 		],
 	},
@@ -391,6 +482,20 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'STahran',
+			},
+		],
+	},
+	{
+		name: 'Steve Schoger',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'steveschoger',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'UCxqiDtkXtOCNJdckODHk9YA',
 			},
 		],
 	},
