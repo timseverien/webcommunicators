@@ -17,6 +17,27 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Alice Boxhall',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'MASTODON',
+				username: 'sundress',
+				serverDomain: 'eigenmagic.net',
+			},
+		],
+	},
+	{
+		name: 'Alicia Sedlock',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'aliciability',
+			},
+		],
+	},
+	{
 		name: 'Andy Bell',
 		languages: ['en'],
 		channels: [
@@ -33,6 +54,32 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'piccalilli_',
+			},
+		],
+	},
+	{
+		name: 'Ash Kyd',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://ash.ms/blog/',
+				feedUrl: 'https://ash.ms/atom.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'ash',
+				serverDomain: 'bne.social',
+			},
+		],
+	},
+	{
+		name: 'Ashley Bischoff',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'handcoding',
 			},
 		],
 	},
@@ -372,6 +419,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'István “Flaki” Szmozsánszky',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://musings.flak.is',
+				feedUrl: 'https://musings.flak.is/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'flaki',
+				serverDomain: 'flaki.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'slsoftworks',
+			},
+		],
+	},
+	{
 		name: 'Ivan Akulov',
 		languages: ['en'],
 		channels: [
@@ -452,6 +519,20 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'jecfish',
+			},
+		],
+	},
+	{
+		name: 'Jessica Rose',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'http://jessica.tech/writing/',
+			},
+			{
+				type: 'TWITTER',
+				username: 'jesslynnrose',
 			},
 		],
 	},
@@ -638,6 +719,21 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Monica Dinculescu',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://meowni.ca/blog/',
+				feedUrl: 'https://meowni.ca/blog.xml',
+			},
+			{
+				type: 'TWITTER',
+				username: 'notwaldorf',
+			},
+		],
+	},
+	{
 		name: 'Monika Piotrowicz',
 		languages: ['en'],
 		channels: [
@@ -678,6 +774,21 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Niels Leenheer',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://nielsleenheer.com/articles/',
+				feedUrl: 'https://nielsleenheer.com/feed/',
+			},
+			{
+				type: 'TWITTER',
+				username: 'html5test',
+			},
+		],
+	},
+	{
 		name: 'Nolan Lawson',
 		languages: ['en'],
 		channels: [
@@ -690,6 +801,16 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'MASTODON',
 				username: 'nolan',
 				serverDomain: 'toot.cafe',
+			},
+		],
+	},
+	{
+		name: 'Ola Gasidlo',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'misprintedtype',
 			},
 		],
 	},
@@ -764,6 +885,40 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'programmingart',
+			},
+		],
+	},
+	{
+		name: 'Ruben van der Leun',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'MASTODON',
+				username: 'rvdleun',
+				serverDomain: 'mas.to',
+			},
+			{
+				type: 'TWITTER',
+				username: 'rvdleun',
+			},
+		],
+	},
+	{
+		name: 'Sara Soueidan',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.sarasoueidan.com/blog/',
+				feedUrl: 'https://www.sarasoueidan.com/blog/index.xml/',
+			},
+			{
+				type: 'NEWSLETTER',
+				subscribeUrl: 'https://www.sarasoueidan.com/newsletter/',
+			},
+			{
+				type: 'TWITTER',
+				username: 'sarasoueidan',
 			},
 		],
 	},
@@ -862,6 +1017,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Steven Hay',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.the-haystack.com/',
+				feedUrl: 'https://www.the-haystack.com/feed/',
+			},
+			{
+				type: 'MASTODON',
+				username: 'stephenhay',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'stephenhay',
+			},
+		],
+	},
+	{
 		name: 'Tejas Kumar',
 		languages: ['en'],
 		channels: [
@@ -921,6 +1096,20 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Umar Hansa',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://umaar.com/blog/',
+			},
+			{
+				type: 'TWITTER',
+				username: 'umaar',
+			},
+		],
+	},
+	{
 		name: 'Una Kravets',
 		languages: ['en'],
 		channels: [
@@ -933,6 +1122,50 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'MASTODON',
 				username: 'Una',
 				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'una',
+			},
+		],
+	},
+	{
+		name: 'Val Head',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://valhead.com/blog/',
+				feedUrl: 'https://valhead.com/feed/',
+			},
+			{
+				type: 'MASTODON',
+				username: 'vlh',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'vlh',
+			},
+		],
+	},
+	{
+		name: 'Yoav Weiss',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://blog.yoav.ws',
+				feedUrl: 'https://blog.yoav.ws/index.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'yoav',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'yoavweiss',
 			},
 		],
 	},
