@@ -554,7 +554,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'MASTODON',
-				username: 'HTeuMeuLe',
+				username: 'HTeuMeuLeu',
 				serverDomain: 'mastodon.social',
 			},
 			{
