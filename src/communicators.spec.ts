@@ -95,7 +95,7 @@ describe('COMMUNICATORS', () => {
 
 	test.each(
 		getCommunicatorChannelsOfType<ChannelYouTube>(COMMUNICATORS, 'YOUTUBE').map(
-			(c) => [(c.channelId || c.channelName)!],
+			(c) => [(c.channelId ?? c.channelName ?? c.userName)!],
 		),
 	)('YouTube channel id or name %p is non-empty', (youtubeChannelIdOrName) => {
 		expect(youtubeChannelIdOrName.length).toBeGreaterThan(0);
@@ -125,8 +125,8 @@ describe('COMMUNICATORS', () => {
 				if (a.type === 'TWITTER' && b.type === 'TWITTER')
 					return a.username.localeCompare(b.username);
 				if (a.type === 'YOUTUBE' && b.type === 'YOUTUBE')
-					return (a.channelName ?? a.channelId).localeCompare(
-						b.channelName ?? b.channelId,
+					return (a.channelName ?? a.channelId ?? a.userName)!.localeCompare(
+						(b.channelName ?? b.channelId ?? b.userName)!,
 					);
 
 				return a.type.localeCompare(b.type);

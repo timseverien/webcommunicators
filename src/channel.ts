@@ -28,18 +28,28 @@ export type ChannelTwitter = {
 type ChannelYouTubeWithChannelId = {
 	type: 'YOUTUBE';
 	channelId: string;
-	channelName?: any;
+	channelName?: string;
+	userName?: string;
 };
 
 type ChannelYouTubeWithChannelName = {
 	type: 'YOUTUBE';
-	channelId?: any;
+	channelId?: string;
 	channelName: string;
+	userName?: string;
+};
+
+type ChannelYouTubeWithUserName = {
+	type: 'YOUTUBE';
+	channelId?: string;
+	channelName?: string;
+	userName?: string;
 };
 
 export type ChannelYouTube =
 	| ChannelYouTubeWithChannelId
-	| ChannelYouTubeWithChannelName;
+	| ChannelYouTubeWithChannelName
+	| ChannelYouTubeWithUserName;
 
 export type Channel =
 	| ChannelBlog
