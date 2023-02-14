@@ -201,6 +201,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Bram Smulders',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://bram.is/writing/',
+				feedUrl: 'https://bram.is/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'bramsmulders',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'bramsmulders',
+			},
+		],
+	},
+	{
 		name: 'Bramus van Damme',
 		languages: ['en'],
 		channels: [
@@ -397,6 +417,38 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'elliotjaystocks',
+			},
+		],
+	},
+	{
+		name: 'Erik Kroes',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.erikkroes.nl/blog/',
+				feedUrl: 'https://www.erikkroes.nl/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'erikKroes',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'NEWSLETTER',
+				subscribeUrl: 'https://www.erikkroes.nl/newsletter/',
+			},
+			{
+				type: 'TWITCH',
+				username: 'erikKroes',
+			},
+			{
+				type: 'TWITTER',
+				username: 'erikkroes',
+			},
+			{
+				type: 'YOUTUBE',
+				channelId: 'UCwrpGO76k2HyUQspl-rG2eQ',
 			},
 		],
 	},
@@ -757,6 +809,26 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'katekalcevich',
+			},
+		],
+	},
+	{
+		name: 'Kilian Valkhof',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://kilianvalkhof.com/',
+				feedUrl: 'https://feeds.feedburner.com/Kilianvalkhofcom',
+			},
+			{
+				type: 'MASTODON',
+				username: 'kilian',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'kilianvalkhof',
 			},
 		],
 	},
