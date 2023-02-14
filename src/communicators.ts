@@ -281,6 +281,21 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: "Charlie O'Hara",
+		languages: ['en'],
+		channels: [
+			{
+				type: 'MASTODON',
+				username: 'whalecoiner',
+				serverDomain: 'indieweb.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'whalecoiner',
+			},
+		],
+	},
+	{
 		name: 'Chen Hui Jing',
 		languages: ['en'],
 		channels: [
@@ -402,6 +417,26 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'eva_trostlos',
+			},
+		],
+	},
+	{
+		name: 'Floor Drees',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://dev.to/floord',
+				feedUrl: 'https://dev.to/feed/floord',
+			},
+			{
+				type: 'MASTODON',
+				username: 'floord',
+				serverDomain: 'mastodon.lol',
+			},
+			{
+				type: 'TWITTER',
+				username: 'floordrees',
 			},
 		],
 	},
@@ -831,6 +866,16 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Marie van Driessche',
+		languages: ['en', 'nl'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'marievandries',
+			},
+		],
+	},
+	{
 		name: 'Martin Splitt',
 		languages: ['en'],
 		channels: [
@@ -847,6 +892,16 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'geekonaut',
+			},
+		],
+	},
+	{
+		name: 'Maud Nalpas',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'TWITTER',
+				username: 'maudnals',
 			},
 		],
 	},
@@ -1254,21 +1309,6 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'shestopalov_v',
-			},
-		],
-	},
-	{
-		name: "Charlie O'Hara",
-		languages: ['en'],
-		channels: [
-			{
-				type: 'MASTODON',
-				username: 'whalecoiner',
-				serverDomain: 'indieweb.social',
-			},
-			{
-				type: 'TWITTER',
-				username: 'whalecoiner',
 			},
 		],
 	},
