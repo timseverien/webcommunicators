@@ -5,9 +5,11 @@ name: Bump and publish npm package
 
 on:
   push:
-    tags:
-      - '*'
-
+    branches:
+      - main
+    paths:
+      - 'src/**.ts'
+      
 jobs:
   build:
     runs-on: ubuntu-latest
