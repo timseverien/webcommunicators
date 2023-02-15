@@ -968,6 +968,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Matt Gaunt-Seo',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.gaunt.dev/blog/',
+				feedUrl: 'https://www.gaunt.dev/blog/rss.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'matt',
+				serverDomain: 'gaunt.dev',
+			},
+			{
+				type: 'TWITTER',
+				username: 'gauntface',
+			},
+		],
+	},
+	{
 		name: 'Maud Nalpas',
 		languages: ['en'],
 		channels: [
