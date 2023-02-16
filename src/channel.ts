@@ -4,6 +4,11 @@ export type ChannelBlog = {
 	feedUrl?: string;
 };
 
+export type ChannelLinkedIn = {
+	type: 'LINKEDIN';
+	username: string;
+};
+
 export type ChannelMastodon = {
 	type: 'MASTODON';
 	serverDomain: string;
@@ -43,7 +48,7 @@ type ChannelYouTubeWithUserName = {
 	type: 'YOUTUBE';
 	channelId?: string;
 	channelName?: string;
-	userName?: string;
+	userName: string;
 };
 
 export type ChannelYouTube =
@@ -53,6 +58,7 @@ export type ChannelYouTube =
 
 export type Channel =
 	| ChannelBlog
+	| ChannelLinkedIn
 	| ChannelMastodon
 	| ChannelNewsletter
 	| ChannelTwitch

@@ -11,6 +11,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://web.dev/authors/addyosmani/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'addyosmani',
+			},
+			{
 				type: 'TWITTER',
 				username: 'addyosmani',
 			},
@@ -24,6 +28,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://infrequently.org/',
 				feedUrl: 'https://infrequently.org/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'alexrussell',
 			},
 			{
 				type: 'MASTODON',
@@ -51,6 +59,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Alicia Sedlock',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'aliciasedlock',
+			},
 			{
 				type: 'TWITTER',
 				username: 'aliciability',
@@ -87,6 +99,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://anjana.dev/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'anjanavakil',
+			},
+			{
 				type: 'TWITTER',
 				username: 'AnjanaVakil',
 			},
@@ -102,6 +118,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://ash.ms/atom.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'ashkyd',
+			},
+			{
 				type: 'MASTODON',
 				username: 'ash',
 				serverDomain: 'bne.social',
@@ -112,6 +132,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Ashley Bischoff',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'handcoding',
+			},
 			{
 				type: 'TWITTER',
 				username: 'handcoding',
@@ -126,6 +150,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://asim.dev/articles',
 				feedUrl: 'https://asim.dev/rss.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'jawache',
 			},
 			{
 				type: 'TWITTER',
@@ -144,6 +172,10 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'BLOG',
 				url: 'https://atila.io/writing',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'atilafassina',
 			},
 			{
 				type: 'MASTODON',
@@ -165,6 +197,10 @@ export const COMMUNICATORS: Communicator[] = [
 		languages: ['en'],
 		channels: [
 			{
+				type: 'LINKEDIN',
+				username: 'barbarabermes',
+			},
+			{
 				type: 'TWITTER',
 				username: 'bbinto',
 			},
@@ -174,6 +210,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Ben Callahan',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'bencallahan',
+			},
 			{
 				type: 'TWITTER',
 				username: 'bencallahan',
@@ -188,6 +228,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://bradfrost.com/blog/',
 				feedUrl: 'https://feeds.feedburner.com/brad-frosts-blog',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'bradfrost',
 			},
 			{
 				type: 'MASTODON',
@@ -210,6 +254,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://bram.is/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'smuldersbram',
+			},
+			{
 				type: 'MASTODON',
 				username: 'bramsmulders',
 				serverDomain: 'front-end.social',
@@ -228,6 +276,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://www.bram.us/',
 				feedUrl: 'https://www.bram.us/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'bramus',
 			},
 			{
 				type: 'MASTODON',
@@ -250,6 +302,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://brucelawson.co.uk/feed/',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'bruce-lawson-34b44',
+			},
+			{
 				type: 'MASTODON',
 				username: 'brucelawson',
 				serverDomain: 'social.vivaldi.net',
@@ -270,6 +326,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://cariefisher.com/rss.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'cariefisher',
+			},
+			{
 				type: 'MASTODON',
 				username: 'cariefisher',
 				serverDomain: 'mstdn.social',
@@ -288,6 +348,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://www.cassie.codes/writing/',
 				feedUrl: 'https://www.cassie.codes/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'cassie-codes',
 			},
 			{
 				type: 'MASTODON',
@@ -325,6 +389,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://chenhuijing.com/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'huijingchen',
+			},
+			{
 				type: 'MASTODON',
 				username: 'huijing',
 				serverDomain: 'tech.lgbt',
@@ -345,6 +413,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://medium.com/feed/@christinevallaure',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'christinevallaure',
+			},
+			{
 				type: 'TWITTER',
 				username: 'moonlearning',
 			},
@@ -354,6 +426,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Christophe Porteneuve',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'christopheporteneuve',
+			},
 			{
 				type: 'MASTODON',
 				username: 'porteneuve',
@@ -369,6 +445,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Dan Donald',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'hereinthehive',
+			},
 			{
 				type: 'TWITTER',
 				username: 'hereinthehive',
@@ -395,6 +475,10 @@ export const COMMUNICATORS: Communicator[] = [
 		languages: ['en'],
 		channels: [
 			{
+				type: 'LINKEDIN',
+				username: 'dianamounter',
+			},
+			{
 				type: 'TWITTER',
 				username: 'broccolini',
 			},
@@ -408,6 +492,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://elliotjaystocks.com/blog/',
 				feedUrl: 'https://feeds.feedburner.com/elliotjaystocks/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'elliotjaystocks',
 			},
 			{
 				type: 'MASTODON',
@@ -428,6 +516,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://www.erikkroes.nl/blog/',
 				feedUrl: 'https://www.erikkroes.nl/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'erikKroes',
 			},
 			{
 				type: 'MASTODON',
@@ -467,6 +559,10 @@ export const COMMUNICATORS: Communicator[] = [
 		languages: ['en'],
 		channels: [
 			{
+				type: 'LINKEDIN',
+				username: 'eva-lettner-23997094',
+			},
+			{
 				type: 'TWITTER',
 				username: 'eva_trostlos',
 			},
@@ -480,6 +576,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://dev.to/floord',
 				feedUrl: 'https://dev.to/feed/floord',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'floordrees',
 			},
 			{
 				type: 'MASTODON',
@@ -496,6 +596,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Harrison Wheeler',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'hmwheeler',
+			},
 			{
 				type: 'TWITTER',
 				username: 'hmwheele',
@@ -516,6 +620,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://feeds.feedburner.com/csswizardry',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'csswizardry',
+			},
+			{
 				type: 'TWITTER',
 				username: 'csswizardry',
 			},
@@ -525,6 +633,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Henri Helvetica',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'henri-helvetica-231189239',
+			},
 			{
 				type: 'TWITTER',
 				username: 'HenriHelvetica',
@@ -539,6 +651,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://heydonworks.com/latest/',
 				feedUrl: 'https://heydonworks.com/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'heydon-pickering-a2a22b9',
 			},
 			{
 				type: 'MASTODON',
@@ -561,6 +677,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://hidde.blog/feed',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'hiddedevries',
+			},
+			{
 				type: 'MASTODON',
 				username: 'hdv',
 				serverDomain: 'front-end.social',
@@ -579,6 +699,14 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://bitsofco.de/',
 				feedUrl: 'https://bitsofco.de/rss/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'iaderinokun',
+			},
+			{
+				type: 'NEWSLETTER',
+				subscribeUrl: 'https://bitsofco.de/subscribe/',
 			},
 			{
 				type: 'MASTODON',
@@ -605,6 +733,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://musings.flak.is/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'szmozsanszkyistvan',
+			},
+			{
 				type: 'MASTODON',
 				username: 'flaki',
 				serverDomain: 'flaki.social',
@@ -623,6 +755,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://iamakulov.com/notes/',
 				feedUrl: 'https://iamakulov.com/notes/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'iamakulov',
 			},
 			{
 				type: 'MASTODON',
@@ -645,6 +781,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.jackfranklin.co.uk/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'jack-franklin-056510127',
+			},
+			{
 				type: 'MASTODON',
 				username: 'jackf',
 				serverDomain: 'indieweb.social',
@@ -659,6 +799,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Jad Joubran',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'jadjoubran',
+			},
 			{
 				type: 'TWITTER',
 				username: 'JoubranJad',
@@ -675,6 +819,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://jakearchibald.com/posts.rss',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'jake-archibald',
+			},
+			{
 				type: 'MASTODON',
 				username: 'jaffathecake',
 				serverDomain: 'mastodon.social',
@@ -689,6 +837,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Jason Grigsby',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'grigs',
+			},
 			{
 				type: 'MASTODON',
 				username: 'grigs',
@@ -709,6 +861,15 @@ export const COMMUNICATORS: Communicator[] = [
 				url: 'https://rwt.io/blog',
 			},
 			{
+				type: 'BLOG',
+				url: 'https://jpamental.medium.com/',
+				feedUrl: 'https://medium.com/feed/@jpamental',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'jpamental',
+			},
+			{
 				type: 'TWITTER',
 				username: 'jpamental',
 			},
@@ -720,8 +881,12 @@ export const COMMUNICATORS: Communicator[] = [
 		channels: [
 			{
 				type: 'BLOG',
-				url: 'https://jec.fyi/blog/',
+				url: 'https://jec.fyi/blog',
 				feedUrl: 'https://jec.fyi/index.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'jecfish',
 			},
 			{
 				type: 'TWITTER',
@@ -737,6 +902,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://adactio.com/articles',
 				feedUrl: 'https://adactio.com/articles/rss',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'adactio',
 			},
 			{
 				type: 'MASTODON',
@@ -769,6 +938,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://jhey.dev/rss/rss.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'jheytompkins',
+			},
+			{
 				type: 'MASTODON',
 				username: 'jhey',
 				serverDomain: 'front-end.social',
@@ -797,6 +970,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.joshwcomeau.com/rss.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'joshwcomeau',
+			},
+			{
 				type: 'TWITTER',
 				username: 'joshwcomeau',
 			},
@@ -806,6 +983,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Kate Kalcevich',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'katekalcevich',
+			},
 			{
 				type: 'TWITTER',
 				username: 'katekalcevich',
@@ -820,6 +1001,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://kilianvalkhof.com/',
 				feedUrl: 'https://feeds.feedburner.com/Kilianvalkhofcom',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'kilianvalkhof',
 			},
 			{
 				type: 'MASTODON',
@@ -842,6 +1027,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://laurakalbag.com/posts/index.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'laurakalbag',
+			},
+			{
 				type: 'MASTODON',
 				username: 'laura',
 				serverDomain: 'mastodon.laurakalbag.com',
@@ -860,6 +1049,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://lea.verou.me/',
 				feedUrl: 'https://lea.verou.me/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'leaverou',
 			},
 			{
 				type: 'MASTODON',
@@ -881,8 +1074,16 @@ export const COMMUNICATORS: Communicator[] = [
 				url: 'https://leerob.io/blog',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'leeerob',
+			},
+			{
 				type: 'TWITTER',
 				username: 'leeerob',
+			},
+			{
+				type: 'YOUTUBE',
+				userName: 'leerob',
 			},
 		],
 	},
@@ -894,6 +1095,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://tink.uk/',
 				feedUrl: 'https://tink.uk/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'lwatson',
 			},
 			{
 				type: 'MASTODON',
@@ -931,6 +1136,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.matuzo.at/feed.xml?rev=1676266777073',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'matuzo',
+			},
+			{
 				type: 'MASTODON',
 				username: 'matuzo',
 				serverDomain: 'front-end.social',
@@ -941,6 +1150,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Marie van Driessche',
 		languages: ['en', 'nl'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'marie-van-driessche',
+			},
 			{
 				type: 'TWITTER',
 				username: 'marievandries',
@@ -955,6 +1168,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://50linesofco.de/',
 				feedUrl: 'https://50linesofco.de/rss.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'martinsplitt',
 			},
 			{
 				type: 'MASTODON',
@@ -977,6 +1194,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.gaunt.dev/blog/rss.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'mattgaunt',
+			},
+			{
 				type: 'MASTODON',
 				username: 'matt',
 				serverDomain: 'gaunt.dev',
@@ -992,6 +1213,10 @@ export const COMMUNICATORS: Communicator[] = [
 		languages: ['en'],
 		channels: [
 			{
+				type: 'LINKEDIN',
+				username: 'maudnalpas',
+			},
+			{
 				type: 'TWITTER',
 				username: 'maudnals',
 			},
@@ -1004,6 +1229,10 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'BLOG',
 				url: 'https://css-irl.info/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'michelle-barker-02819230',
 			},
 			{
 				type: 'MASTODON',
@@ -1026,6 +1255,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.miriamsuzanne.com/feed.atom',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'mirisuzanne',
+			},
+			{
 				type: 'MASTODON',
 				username: 'mia',
 				serverDomain: 'front-end.social',
@@ -1046,6 +1279,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://meowni.ca/blog.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'mdinculescu',
+			},
+			{
 				type: 'TWITTER',
 				username: 'notwaldorf',
 			},
@@ -1055,6 +1292,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Monika Piotrowicz',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'monikapiotrowicz',
+			},
 			{
 				type: 'TWITTER',
 				username: 'monsika',
@@ -1069,6 +1310,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://www.visualcinnamon.com/blog/',
 				feedUrl: 'https://www.visualcinnamon.com/blog/index.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'nbremer',
 			},
 			{
 				type: 'TWITTER',
@@ -1086,6 +1331,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://medium.com/feed/@nathanacurtis',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'nathancurtis',
+			},
+			{
 				type: 'TWITTER',
 				username: 'nathanacurtis',
 			},
@@ -1099,6 +1348,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://nielsleenheer.com/articles/',
 				feedUrl: 'https://nielsleenheer.com/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'nielsleenheer',
 			},
 			{
 				type: 'TWITTER',
@@ -1127,6 +1380,10 @@ export const COMMUNICATORS: Communicator[] = [
 		languages: ['en'],
 		channels: [
 			{
+				type: 'LINKEDIN',
+				username: 'ola-gasidlo-brändel-822084237',
+			},
+			{
 				type: 'TWITTER',
 				username: 'misprintedtype',
 			},
@@ -1145,6 +1402,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'TWITTER',
 				username: 'aerotwist',
 			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'aerotwist',
+			},
 		],
 	},
 	{
@@ -1155,6 +1416,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://petergasston.co.uk/blog/',
 				feedUrl: 'https://petergasston.co.uk/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'petergasston',
 			},
 			{
 				type: 'TWITTER',
@@ -1170,6 +1435,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://mntr.dk/',
 				feedUrl: 'https://mntr.dk/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'petermuller',
 			},
 			{
 				type: 'MASTODON',
@@ -1192,6 +1461,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.hawksworx.com/feed.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'philhawksworth',
+			},
+			{
 				type: 'MASTODON',
 				username: 'philhawksworth',
 				serverDomain: 'indieweb.social',
@@ -1212,6 +1485,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://rachelandrew.co.uk/feed/',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'rachelandrew',
+			},
+			{
 				type: 'TWITTER',
 				username: 'rachelandrew',
 			},
@@ -1225,6 +1502,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://www.raymondcamden.com/',
 				feedUrl: 'https://www.raymondcamden.com/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'raymondcamden',
 			},
 			{
 				type: 'MASTODON',
@@ -1275,6 +1556,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://remysharp.com/blog.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'remysharp',
+			},
+			{
 				type: 'MASTODON',
 				username: 'rem',
 				serverDomain: 'front-end.social',
@@ -1290,6 +1575,10 @@ export const COMMUNICATORS: Communicator[] = [
 		languages: ['en'],
 		channels: [
 			{
+				type: 'LINKEDIN',
+				username: 'rmarx',
+			},
+			{
 				type: 'MASTODON',
 				username: 'programmingart',
 				serverDomain: 'mastodon.social',
@@ -1304,6 +1593,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Ruben van der Leun',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'rvdleun',
+			},
 			{
 				type: 'MASTODON',
 				username: 'rvdleun',
@@ -1325,6 +1618,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://www.sarasoueidan.com/blog/index.xml/',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'sara-soueidan-619069257',
+			},
+			{
 				type: 'NEWSLETTER',
 				subscribeUrl: 'https://www.sarasoueidan.com/newsletter/',
 			},
@@ -1341,6 +1638,10 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'BLOG',
 				url: 'https://sarahdrasnerdesign.com/writing/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'sarahdrasner',
 			},
 			{
 				type: 'MASTODON',
@@ -1363,6 +1664,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://scotthelme.co.uk/rss/',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'sarscotthelmehdrasner',
+			},
+			{
 				type: 'TWITTER',
 				username: 'Scott_Helme',
 			},
@@ -1376,6 +1681,14 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://dev.to/shaundai',
 				feedUrl: 'https://dev.to/feed/shaundai',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'shaundai',
+			},
+			{
+				type: 'TWITTER',
+				username: 'shaundai',
 			},
 		],
 	},
@@ -1399,6 +1712,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://medium.com/feed/@shestopalov',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'shestopalov',
+			},
+			{
 				type: 'TWITTER',
 				username: 'shestopalov_v',
 			},
@@ -1408,6 +1725,10 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Sophie Tahran',
 		languages: ['en'],
 		channels: [
+			{
+				type: 'LINKEDIN',
+				username: 'sophietahran',
+			},
 			{
 				type: 'TWITTER',
 				username: 'STahran',
@@ -1421,6 +1742,10 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'BLOG',
 				url: 'https://stephencook.dev/blog',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'scook628',
 			},
 			{
 				type: 'TWITTER',
@@ -1450,6 +1775,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://www.the-haystack.com/',
 				feedUrl: 'https://www.the-haystack.com/feed/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'stephenhay',
 			},
 			{
 				type: 'MASTODON',
@@ -1491,6 +1820,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://timkadlec.com/remembers/atom.xml',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'tkadlec',
+			},
+			{
 				type: 'TWITTER',
 				username: 'tkadlec',
 			},
@@ -1509,6 +1842,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://timseverien.com/',
 				feedUrl: 'https://timseverien.com/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'timseverien',
 			},
 			{
 				type: 'MASTODON',
@@ -1533,6 +1870,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'TWITTER',
 				username: 'umaar',
 			},
+			{
+				type: 'YOUTUBE',
+				userName: 'UmarHansa',
+			},
 		],
 	},
 	{
@@ -1543,6 +1884,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://una.im/archive/',
 				feedUrl: 'https://una.im/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'una-kravets-a3582730',
 			},
 			{
 				type: 'MASTODON',
@@ -1565,6 +1910,10 @@ export const COMMUNICATORS: Communicator[] = [
 				feedUrl: 'https://valhead.com/feed/',
 			},
 			{
+				type: 'LINKEDIN',
+				username: 'valhead',
+			},
+			{
 				type: 'MASTODON',
 				username: 'vlh',
 				serverDomain: 'front-end.social',
@@ -1583,6 +1932,10 @@ export const COMMUNICATORS: Communicator[] = [
 				type: 'BLOG',
 				url: 'https://blog.yoav.ws/',
 				feedUrl: 'https://blog.yoav.ws/index.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'weissyoav',
 			},
 			{
 				type: 'MASTODON',

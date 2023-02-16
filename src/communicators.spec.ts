@@ -8,6 +8,7 @@ import type {
 import { COMMUNICATORS } from './communicators';
 import {
 	getCommunicatorChannelsOfType,
+	isOverlapInChannels,
 	isValidHostname,
 	isValidUrl,
 } from './util';
@@ -133,6 +134,17 @@ describe('COMMUNICATORS', () => {
 			});
 
 			expect(channels).toEqual(expected);
+		},
+	);
+
+	test.each([COMMUNICATORS.map((c) => c.channels).flat()])(
+		'channel %p is unique',
+		(channel) => {
+			const result = COMMUNICATORS.map((c) => c.channels)
+				.flat()
+				.filter((c) => isOverlapInChannels(c, channel));
+
+			expect(result.length).toEqual(1);
 		},
 	);
 });

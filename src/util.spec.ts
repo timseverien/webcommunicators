@@ -3,6 +3,7 @@ import type { Communicator } from './communicator.js';
 import {
 	getAllCommunicatorChannels,
 	getCommunicatorChannelsOfType,
+	isOverlapInChannels,
 	isValidHostname,
 	isValidUrl,
 } from './util';
@@ -95,6 +96,29 @@ describe('getCommunicatorChannelsOfType', () => {
 		expect(result).toEqual<Channel[]>([
 			{ type: 'BLOG', url: 'https://example.com/blog' },
 		]);
+	});
+});
+
+describe('isOverlapInChannels', () => {
+	test.each<[Channel, Channel, boolean]>([
+		[
+			{ type: 'BLOG', url: 'https://example.com/' },
+			{ type: 'BLOG', url: 'https://example.com/' },
+			true,
+		],
+		[
+			{ type: 'BLOG', url: 'https://example.com/' },
+			{ type: 'BLOG', url: 'https://example.com/', feedUrl: 'example' },
+			true,
+		],
+		[
+			{ type: 'TWITTER', username: 'example' },
+			{ type: 'LINKEDIN', username: 'example' },
+			false,
+		],
+	])('given %p and %p, returns %p', (channel1, channel2, expectedResult) => {
+		const result = isOverlapInChannels(channel1, channel2);
+		expect(result).toBe(expectedResult);
 	});
 });
 
