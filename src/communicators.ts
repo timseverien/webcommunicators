@@ -1200,7 +1200,7 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'MASTODON',
 				username: 'matt',
-				serverDomain: 'gaunt.dev',
+				serverDomain: 'mastodon.gaunt.dev',
 			},
 			{
 				type: 'TWITTER',
