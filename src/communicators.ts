@@ -1849,6 +1849,11 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'MASTODON',
+				username: 'ijsjes',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'MASTODON',
 				username: 'timsev',
 				serverDomain: 'mastodon.social',
 			},
