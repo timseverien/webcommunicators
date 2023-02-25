@@ -293,6 +293,30 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Brian Rinaldi',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://remotesynthesis.com/blog/',
+				feedUrl: 'https://remotesynthesis.com/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'brianrinaldi',
+			},
+			{
+				type: 'MASTODON',
+				username: 'remotesynth',
+				serverDomain: 'mastodon.xyz',
+			},
+			{
+				type: 'TWITTER',
+				username: 'remotesynth',
+			},
+		],
+	},
+	{
 		name: 'Bruce Lawson',
 		languages: ['en'],
 		channels: [
@@ -509,6 +533,34 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Eric Bailey',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://ericwbailey.website/published/',
+				feedUrl: 'https://ericwbailey.website/feed/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'ericwbailey',
+			},
+			{
+				type: 'MASTODON',
+				username: 'eric',
+				serverDomain: 'social.ericwbailey.website',
+			},
+			{
+				type: 'NEWSLETTER',
+				subscribeUrl: 'https://buttondown.email/ericwbailey',
+			},
+			{
+				type: 'TWITTER',
+				username: 'ericwbailey',
+			},
+		],
+	},
+	{
 		name: 'Erik Kroes',
 		languages: ['en'],
 		channels: [
@@ -688,6 +740,34 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'hdv',
+			},
+		],
+	},
+	{
+		name: 'Gergely Orosz',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://blog.pragmaticengineer.com/',
+				feedUrl: 'https://blog.pragmaticengineer.com/rss/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'gergelyorosz',
+			},
+			{
+				type: 'MASTODON',
+				username: 'gergelyorosz',
+				serverDomain: 'mastodon.online',
+			},
+			{
+				type: 'TWITTER',
+				username: 'GergelyOrosz',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'mrgergelyorosz',
 			},
 		],
 	},
@@ -1042,6 +1122,30 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Laurie Voss',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://seldo.com/',
+				feedUrl: 'https://seldo.com/rss.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'seldo',
+			},
+			{
+				type: 'MASTODON',
+				username: 'seldo',
+				serverDomain: 'alpaca.gold',
+			},
+			{
+				type: 'TWITTER',
+				username: 'seldo',
+			},
+		],
+	},
+	{
 		name: 'Lea Verou',
 		languages: ['en'],
 		channels: [
@@ -1108,6 +1212,30 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'leoniewatson',
+			},
+		],
+	},
+	{
+		name: 'Lynn Fisher',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://lynnandtonic.com/thoughts/',
+				feedUrl: 'https://lynnandtonic.com/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'lynnandtonic',
+			},
+			{
+				type: 'MASTODON',
+				username: 'lynnandtonic',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'lynnandtonic',
 			},
 		],
 	},
@@ -1219,6 +1347,30 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'maudnals',
+			},
+		],
+	},
+	{
+		name: 'Max Böck',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://mxb.dev/blog/',
+				feedUrl: 'https://mxb.dev/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'max-böck-94a1861aa',
+			},
+			{
+				type: 'MASTODON',
+				username: 'mxbck',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'mxbck',
 			},
 		],
 	},
@@ -1670,6 +1822,35 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'Scott_Helme',
+			},
+		],
+	},
+	{
+		name: "Scott O'Hara",
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.scottohara.me/writing/',
+				feedUrl: 'https://www.scottohara.me/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'scottaohara',
+			},
+			{
+				type: 'MASTODON',
+				username: 'scottohara',
+				serverDomain: 'a11y.info',
+			},
+			{
+				type: 'MASTODON',
+				username: 'scottohara',
+				serverDomain: 'mastodon.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'scottohara',
 			},
 		],
 	},
