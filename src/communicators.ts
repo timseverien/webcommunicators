@@ -645,6 +645,34 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Gergely Orosz',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://blog.pragmaticengineer.com/',
+				feedUrl: 'https://blog.pragmaticengineer.com/rss/',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'gergelyorosz',
+			},
+			{
+				type: 'MASTODON',
+				username: 'gergelyorosz',
+				serverDomain: 'mastodon.online',
+			},
+			{
+				type: 'TWITTER',
+				username: 'GergelyOrosz',
+			},
+			{
+				type: 'YOUTUBE',
+				channelName: 'mrgergelyorosz',
+			},
+		],
+	},
+	{
 		name: 'Harrison Wheeler',
 		languages: ['en'],
 		channels: [
@@ -743,34 +771,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 		],
 	},
-	{
-		name: 'Gergely Orosz',
-		languages: ['en'],
-		channels: [
-			{
-				type: 'BLOG',
-				url: 'https://blog.pragmaticengineer.com/',
-				feedUrl: 'https://blog.pragmaticengineer.com/rss/',
-			},
-			{
-				type: 'LINKEDIN',
-				username: 'gergelyorosz',
-			},
-			{
-				type: 'MASTODON',
-				username: 'gergelyorosz',
-				serverDomain: 'mastodon.online',
-			},
-			{
-				type: 'TWITTER',
-				username: 'GergelyOrosz',
-			},
-			{
-				type: 'YOUTUBE',
-				channelName: 'mrgergelyorosz',
-			},
-		],
-	},
+
 	{
 		name: 'Ire Aderinokun',
 		languages: ['en'],
