@@ -1187,7 +1187,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				userName: 'leerob',
+				channelName: 'leerob',
 			},
 		],
 	},
@@ -1817,7 +1817,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'LINKEDIN',
-				username: 'sarscotthelmehdrasner',
+				username: 'scotthelme',
 			},
 			{
 				type: 'TWITTER',
