@@ -161,7 +161,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'jawache',
+				channelId: 'UCFesKMMwxlGXWKxMQmndPYQ',
 			},
 		],
 	},
@@ -668,7 +668,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'mrgergelyorosz',
+				channelId: 'UCPbwhExawYrn9xxI21TFfyw',
 			},
 		],
 	},
@@ -686,7 +686,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'technicallyspeakinghw',
+				channelId: 'UCcwBLFBbMX6lMXV6l20SFzw',
 			},
 		],
 	},
@@ -800,7 +800,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'bitsofcode',
+				channelId: 'UCaJvzHE_y3MhbDLrsa4FfJQ',
 			},
 		],
 	},
@@ -1037,7 +1037,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'jh3y',
+				channelId: 'UC_AfA7_dtrLmRIlkAWdIQDg',
 			},
 		],
 	},
@@ -1188,7 +1188,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'leerob',
+				channelId: 'UCZMli3czZnd1uoc1ShTouQw',
 			},
 		],
 	},
@@ -1557,7 +1557,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'aerotwist',
+				channelId: 'UCRDEsZDDhVhtHLi0L8-5fow',
 			},
 		],
 	},
@@ -1671,7 +1671,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				userName: 'theraymondcamden',
+				channelId: 'UC8KROrnEHSnnV3z5J_FoSIg',
 			},
 		],
 	},
@@ -1695,7 +1695,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'HTeuMeuLeu',
+				channelId: 'UCL55zaz6Usy6g2TxdKiel_w',
 			},
 		],
 	},
@@ -1988,7 +1988,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'tejask',
+				channelId: 'UCvqfTexdjchPEa7j-6SPM-w',
 			},
 		],
 	},
@@ -2059,7 +2059,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				userName: 'UmarHansa',
+				channelId: 'UCwktrTEq-dC49H1NGAC0dWQ',
 			},
 		],
 	},
@@ -2150,7 +2150,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'YOUTUBE',
-				channelName: 'zellwk',
+				channelId: 'UCwIu7m0WpCNXiKZfysX54Zg',
 			},
 		],
 	},

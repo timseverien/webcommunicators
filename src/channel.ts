@@ -30,31 +30,10 @@ export type ChannelTwitter = {
 	username: string;
 };
 
-type ChannelYouTubeWithChannelId = {
+export type ChannelYouTube = {
 	type: 'YOUTUBE';
 	channelId: string;
-	channelName?: string;
-	userName?: string;
 };
-
-type ChannelYouTubeWithChannelName = {
-	type: 'YOUTUBE';
-	channelId?: string;
-	channelName: string;
-	userName?: string;
-};
-
-type ChannelYouTubeWithUserName = {
-	type: 'YOUTUBE';
-	channelId?: string;
-	channelName?: string;
-	userName: string;
-};
-
-export type ChannelYouTube =
-	| ChannelYouTubeWithChannelId
-	| ChannelYouTubeWithChannelName
-	| ChannelYouTubeWithUserName;
 
 export type Channel =
 	| ChannelBlog
