@@ -2,6 +2,25 @@ import type { Communicator } from './communicator.js';
 
 export const COMMUNICATORS: Communicator[] = [
 	{
+		name: 'Adam Argyle',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://nerdy.dev/',
+				feedUrl: 'https://nerdy.dev/rss.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'adamargyle',
+			},
+			{
+				type: 'TWITTER',
+				username: 'argyleink',
+			},
+		],
+	},
+	{
 		name: 'Addy Osmani',
 		languages: ['en'],
 		channels: [
@@ -385,6 +404,21 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'cassiecodes',
+			},
+		],
+	},
+	{
+		name: 'Cassondra Roberts',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'MASTODON',
+				username: 'castastrophe',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'castastrophe',
 			},
 		],
 	},
@@ -1543,6 +1577,30 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Patrick Brosset',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://patrickbrosset.com/articles/',
+				feedUrl: 'https://patrickbrosset.com/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'patrickbrosset',
+				serverDomain: 'mas.to',
+			},
+			{
+				type: 'TWITTER',
+				username: 'patrickbrosset',
+			},
+			{
+				type: 'YOUTUBE',
+				channelId: 'UCteBVHpE50UcE1Qaz7xjCNA',
+			},
+		],
+	},
+	{
 		name: 'Paul Lewis',
 		languages: ['en'],
 		channels: [
@@ -1904,6 +1962,26 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Sophie Koonin',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://localghost.dev/blog/',
+				feedUrl: 'https://localghost.dev/feed.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'sophie',
+				serverDomain: 'social.lol',
+			},
+			{
+				type: 'TWITTER',
+				username: 'type__error',
+			},
+		],
+	},
+	{
 		name: 'Sophie Tahran',
 		languages: ['en'],
 		channels: [
@@ -1914,6 +1992,62 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'TWITTER',
 				username: 'STahran',
+			},
+		],
+	},
+	{
+		name: 'Stephanie Eckles',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://thinkdobecreate.com/articles/',
+				feedUrl: 'https://thinkdobecreate.com/feed/',
+			},
+			{
+				type: 'BLOG',
+				url: 'https://dev.to/5t3ph',
+				feedUrl: 'https://dev.to/feed/5t3ph',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'stepheckles',
+			},
+			{
+				type: 'MASTODON',
+				username: '5t3ph',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'TWITCH',
+				username: '5t3phdev',
+			},
+			{
+				type: 'TWITTER',
+				username: '5t3ph',
+			},
+			{
+				type: 'YOUTUBE',
+				channelId: 'UC8qc2AyBbNmvgIky6236nHA',
+			},
+		],
+	},
+	{
+		name: 'Stephanie Stimac',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://blog.stephaniestimac.com/',
+				feedUrl: 'https://blog.stephaniestimac.com/feed/feed.xml',
+			},
+			{
+				type: 'LINKEDIN',
+				username: 'stephaniestimac',
+			},
+			{
+				type: 'TWITTER',
+				username: 'seaotta',
 			},
 		],
 	},
