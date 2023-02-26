@@ -787,7 +787,7 @@ export const COMMUNICATORS: Communicator[] = [
 			},
 			{
 				type: 'NEWSLETTER',
-				subscribeUrl: 'https://bitsofco.de/subscribe/',
+				subscribeUrl: 'https://bitsofco.de',
 			},
 			{
 				type: 'MASTODON',
