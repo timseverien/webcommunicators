@@ -96,10 +96,10 @@ describe('COMMUNICATORS', () => {
 
 	test.each(
 		getCommunicatorChannelsOfType<ChannelYouTube>(COMMUNICATORS, 'YOUTUBE').map(
-			(c) => [(c.channelId ?? c.channelName ?? c.userName)!],
+			(c) => [c.channelId],
 		),
-	)('YouTube channel id or name %p is non-empty', (youtubeChannelIdOrName) => {
-		expect(youtubeChannelIdOrName.length).toBeGreaterThan(0);
+	)('YouTube channel id or name %p is non-empty', (youtubeChannelId) => {
+		expect(youtubeChannelId.length).toBeGreaterThan(0);
 	});
 
 	test('communicators are in alphabetic order', () => {
@@ -126,9 +126,7 @@ describe('COMMUNICATORS', () => {
 				if (a.type === 'TWITTER' && b.type === 'TWITTER')
 					return a.username.localeCompare(b.username);
 				if (a.type === 'YOUTUBE' && b.type === 'YOUTUBE')
-					return (a.channelName ?? a.channelId ?? a.userName)!.localeCompare(
-						(b.channelName ?? b.channelId ?? b.userName)!,
-					);
+					return a.channelId.localeCompare(b.channelId);
 
 				return a.type.localeCompare(b.type);
 			});
