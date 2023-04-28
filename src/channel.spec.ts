@@ -1,4 +1,5 @@
 import {
+	Channel,
 	ChannelBlog,
 	ChannelLinkedIn,
 	ChannelMastodon,
@@ -6,6 +7,7 @@ import {
 	ChannelTwitch,
 	ChannelTwitter,
 	ChannelYouTube,
+	getChannelFeedUrl,
 	getChannelUrl,
 } from './channel';
 
@@ -91,6 +93,72 @@ describe('getChannelUrl', () => {
 	])('given ChannelYouTube %p, returns %p', (channel, expectedResult) => {
 		const result = getChannelUrl(channel);
 
+		expect(result).toBe(expectedResult);
+	});
+});
+
+describe('getChannelFeedUrl', () => {
+	test.each<[Channel, string | null]>([
+		[
+			{
+				type: 'BLOG',
+				url: 'https://example.com/',
+			},
+			null,
+		],
+		[
+			{
+				type: 'BLOG',
+				url: 'https://example.com/',
+				feedUrl: 'https://example.com/feed.xml',
+			},
+			'https://example.com/feed.xml',
+		],
+		[
+			{
+				type: 'LINKEDIN',
+				username: 'example',
+			},
+			null,
+		],
+		[
+			{
+				type: 'MASTODON',
+				serverDomain: 'mastodon.social',
+				username: 'example',
+			},
+			'https://mastodon.social/@example.rss',
+		],
+		[
+			{
+				type: 'NEWSLETTER',
+				subscribeUrl: 'https://example.com/subscribe/',
+			},
+			null,
+		],
+		[
+			{
+				type: 'TWITCH',
+				username: 'example',
+			},
+			null,
+		],
+		[
+			{
+				type: 'TWITTER',
+				username: 'example',
+			},
+			null,
+		],
+		[
+			{
+				type: 'YOUTUBE',
+				channelId: 'abc',
+			},
+			'https://www.youtube.com/feeds/videos.xml?channel_id=abc',
+		],
+	])('given Channel %p, returns %p', (channel, expectedResult) => {
+		const result = getChannelFeedUrl(channel);
 		expect(result).toBe(expectedResult);
 	});
 });

@@ -1,9 +1,5 @@
 import axios from 'axios';
-import {
-	COMMUNICATORS,
-	getChannelFeedUrl,
-	getChannelUrl,
-} from '../dist/index.js';
+import { COMMUNICATORS, getChannelFeedUrl, getChannelUrl } from '../index.js';
 
 const OPTIONS = process.argv.slice(2);
 const OPTION_VERBOSE = OPTIONS.includes('-v') || OPTIONS.includes('--verbose');

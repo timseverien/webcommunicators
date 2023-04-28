@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const [channelName] = process.argv.slice(2);
 
+console.log(process.argv);
+
 if (!channelName) {
 	console.log('No name specified');
 	process.exit(0);

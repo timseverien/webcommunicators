@@ -168,7 +168,6 @@ export const COMMUNICATORS: Communicator[] = [
 			{
 				type: 'BLOG',
 				url: 'https://asim.dev/articles',
-				feedUrl: 'https://asim.dev/rss.xml',
 			},
 			{
 				type: 'LINKEDIN',
@@ -363,11 +362,12 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Carie Fisher',
 		languages: ['en'],
 		channels: [
-			{
-				type: 'BLOG',
-				url: 'https://cariefisher.com/',
-				feedUrl: 'https://cariefisher.com/rss.xml',
-			},
+			// Website down
+			// {
+			// 	type: 'BLOG',
+			// 	url: 'https://cariefisher.com/',
+			// 	feedUrl: 'https://cariefisher.com/rss.xml',
+			// },
 			{
 				type: 'LINKEDIN',
 				username: 'cariefisher',
@@ -842,11 +842,12 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'István “Flaki” Szmozsánszky',
 		languages: ['en'],
 		channels: [
-			{
-				type: 'BLOG',
-				url: 'https://musings.flak.is/',
-				feedUrl: 'https://musings.flak.is/feed.xml',
-			},
+			// Website down
+			// {
+			// 	type: 'BLOG',
+			// 	url: 'https://musings.flak.is/',
+			// 	feedUrl: 'https://musings.flak.is/feed.xml',
+			// },
 			{
 				type: 'LINKEDIN',
 				username: 'szmozsanszkyistvan',
@@ -2203,8 +2204,7 @@ export const COMMUNICATORS: Communicator[] = [
 		channels: [
 			{
 				type: 'BLOG',
-				url: 'https://una.im/archive/',
-				feedUrl: 'https://una.im/feed.xml',
+				url: 'https://una.im/blog',
 			},
 			{
 				type: 'LINKEDIN',
@@ -2275,7 +2275,7 @@ export const COMMUNICATORS: Communicator[] = [
 		channels: [
 			{
 				type: 'BLOG',
-				url: 'https://zellwk.com/blog/',
+				url: 'https://zellwk.com/blog/1/',
 				feedUrl: 'https://zellwk.com/feed.xml',
 			},
 			{

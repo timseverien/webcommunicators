@@ -4,7 +4,7 @@ import type {
 	ChannelTwitch,
 	ChannelTwitter,
 	ChannelYouTube,
-} from './channel.js';
+} from './channel';
 import { COMMUNICATORS } from './communicators';
 import {
 	getCommunicatorChannelsOfType,

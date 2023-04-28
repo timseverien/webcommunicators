@@ -1,5 +1,5 @@
-import type { Channel, ChannelBlog } from './channel.js';
-import type { Communicator } from './communicator.js';
+import type { Channel, ChannelBlog } from './channel';
+import type { Communicator } from './communicator';
 import {
 	getAllCommunicatorChannels,
 	getCommunicatorChannelsOfType,
@@ -131,6 +131,7 @@ describe('isValidHostname', () => {
 		['https://example.com/foo?bar=baz', false],
 		['example.com/foo', false],
 		['example.com', true],
+		['example.com!@#', false],
 		['example', false],
 		['', false],
 	])('given %p, returns %p', (url, expectedResult) => {
