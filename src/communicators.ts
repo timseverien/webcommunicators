@@ -362,12 +362,11 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'Carie Fisher',
 		languages: ['en'],
 		channels: [
-			// Website down
-			// {
-			// 	type: 'BLOG',
-			// 	url: 'https://cariefisher.com/',
-			// 	feedUrl: 'https://cariefisher.com/rss.xml',
-			// },
+			{
+				type: 'BLOG',
+				url: 'https://cariefisher.com/',
+				feedUrl: 'https://cariefisher.com/rss.xml',
+			},
 			{
 				type: 'LINKEDIN',
 				username: 'cariefisher',
@@ -842,12 +841,11 @@ export const COMMUNICATORS: Communicator[] = [
 		name: 'István “Flaki” Szmozsánszky',
 		languages: ['en'],
 		channels: [
-			// Website down
-			// {
-			// 	type: 'BLOG',
-			// 	url: 'https://musings.flak.is/',
-			// 	feedUrl: 'https://musings.flak.is/feed.xml',
-			// },
+			{
+				type: 'BLOG',
+				url: 'https://musings.flak.is/',
+				feedUrl: 'https://musings.flak.is/feed.xml',
+			},
 			{
 				type: 'LINKEDIN',
 				username: 'szmozsanszkyistvan',
