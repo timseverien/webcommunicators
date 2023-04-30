@@ -1995,6 +1995,39 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Stefan Judis',
+		languages: ['en'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://www.stefanjudis.com/blog/',
+				feedUrl: 'https://www.stefanjudis.com/rss.xml',
+			},
+			{
+				type: 'BLOG',
+				url: 'https://dev.to/stefanjudis/',
+				feedUrl: 'https://dev.to/feed/stefanjudis',
+			},
+			{
+				type: 'MASTODON',
+				username: 'stefan',
+				serverDomain: 'front-end.social',
+			},
+			{
+				type: 'NEWSLETTER',
+				subscribeUrl: 'https://webweekly.email',
+			},
+			{
+				type: 'TWITCH',
+				username: 'stefanjudis',
+			},
+			{
+				type: 'YOUTUBE',
+				channelId: 'UCLpT9xDn3WQ24wfVCkAZU6A',
+			},
+		],
+	},
+	{
 		name: 'Stephanie Eckles',
 		languages: ['en'],
 		channels: [
