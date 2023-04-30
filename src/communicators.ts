@@ -1075,6 +1075,30 @@ export const COMMUNICATORS: Communicator[] = [
 		],
 	},
 	{
+		name: 'Joan León',
+		languages: ['en', 'es'],
+		channels: [
+			{
+				type: 'BLOG',
+				url: 'https://joanleon.dev/blog/',
+				feedUrl: 'https://joanleon.dev/rss.xml',
+			},
+			{
+				type: 'MASTODON',
+				username: 'nucliweb',
+				serverDomain: 'webperf.social',
+			},
+			{
+				type: 'TWITTER',
+				username: 'nucliweb',
+			},
+			{
+				type: 'YOUTUBE',
+				channelId: 'UChE1i1V9J06_yfx4NyAMyyA',
+			},
+		],
+	},
+	{
 		name: 'Josh W Comeau',
 		languages: ['en'],
 		channels: [
