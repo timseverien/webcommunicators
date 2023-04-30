@@ -1,21 +1,17 @@
+import { input } from '@inquirer/prompts';
 import axios from 'axios';
 
-const [channelName] = process.argv.slice(2);
-
-console.log(process.argv);
-
-if (!channelName) {
-	console.log('No name specified');
-	process.exit(0);
-}
-
-const testUrls = [
-	`https://www.youtube.com/@${channelName}`,
-	`https://www.youtube.com/channel/${channelName}`,
-	`https://www.youtube.com/user/${channelName}`,
-];
-
 (async () => {
+	const channelName = await input({
+		message: 'What is the YouTube channel name?',
+	});
+
+	const testUrls = [
+		`https://www.youtube.com/@${channelName}`,
+		`https://www.youtube.com/channel/${channelName}`,
+		`https://www.youtube.com/user/${channelName}`,
+	];
+
 	const regex = /"https:\/\/www.youtube.com\/channel\/(?<channelId>[^"]+)"/;
 
 	for (const url of testUrls) {
